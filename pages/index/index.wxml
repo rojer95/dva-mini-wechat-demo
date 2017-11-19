@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view style='text-align:center'>
+{{index.count}}
+</view>
+
+<button bindtap='plus'>加一</button>
+<button bindtap='minus'>减一</button>
+
+<button bindtap='goDouyu'>斗鱼接口测试</button>
