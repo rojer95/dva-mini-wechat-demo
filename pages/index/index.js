@@ -83,6 +83,13 @@ Page(connect(({ index }) => ({ index }))({
      })
    },
 
+
+   login: function(){
+     this.dispatch({
+       type: 'index/login',
+     })
+   },
+
    goDouyu: function(){
 
      this.dispatch(routerRedux({
