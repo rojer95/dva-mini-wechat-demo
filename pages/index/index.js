@@ -18,20 +18,22 @@ Page(connect(({ index }) => ({ index }))({
     * 生命周期函数--监听页面加载
     */
    onLoad: function (options) {
+     this.dispatch({
+       type: 'index/adjust',
+       payload: 2
+     })
    },
  
    /**
     * 生命周期函数--监听页面初次渲染完成
     */
    onReady: function () {
-     
    },
  
    /**
     * 生命周期函数--监听页面显示
     */
    onShow: function () {
-     
    },
  
    /**
